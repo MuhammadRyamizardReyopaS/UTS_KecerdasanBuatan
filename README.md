@@ -30,8 +30,6 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 
 ## 📊 Dataset
 
-**Sumber:** https://github.com/ialfina/id-hatespeech-detection.git
-
 **Catatan:** Dataset tidak seimbang (imbalanced), sehingga dilakukan **Random Under-Sampling** untuk menciptakan distribusi 50%-50%.
 
 ---
