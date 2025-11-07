@@ -39,6 +39,26 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 ## 🚀 Instalasi & Penggunaan
 ## ✅ Langkah 1 – Import Library
 ![1](1.PNG)
+## Load Dataset & batasi 50 kolom pertama
+![2](2.PNG)
+![3](3.PNG)
+## Membuat dua label untuk Dataset
+![4](4.PNG)
+![5](5.PNG)
+## ✅ Langkah 2 – Preprocessing Teks
+![6](6.PNG)
+![7](7.PNG)
+## ✅ Langkah 3 – Representasi Fitur (Bag of Words)
+![8](8.PNG)
+##  ✅ Langkah 4 – Train Model Naive Bayes
+![9](9.PNG)
+## ✅ Langkah 5 – Evaluasi Model
+![10](10.PNG)
+![11](11.PNG)
+## ✅ Langkah 6 – Visualisasi Distribusi Label & Word Cloud
+![12](12.PNG)
+![13](13.PNG)
+![14](14.PNG)
 
 ---
 
