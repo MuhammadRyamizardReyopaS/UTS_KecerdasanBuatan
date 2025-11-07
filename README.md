@@ -42,7 +42,9 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 ## Load Dataset & batasi 50 kolom pertama
 ![2](2.PNG)
 ---
-![3](3.PNG)
+![16](16.PNG)
+---
+![17](17.PNG)
 ## Membuat dua label untuk Dataset
 ![4](4.PNG)
 ---
@@ -65,6 +67,9 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 ![13](13.PNG)
 ---
 ![14](14.PNG)
+
+## Hasil
+![15](15.PNG)
 
 ---
 
