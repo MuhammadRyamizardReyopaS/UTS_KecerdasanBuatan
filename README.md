@@ -40,56 +40,9 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 ## ✅ Langkah 1 – Import Library
 ![1](1.PNG)
 ## Load Dataset & batasi 50 kolom pertama
----
-from google.colab import files
-uploaded = files.upload()
-
-for fn in uploaded.keys():
-  print('User uploaded file "{name}" with length {length} bytes'.format(
-      name=fn, length=len(uploaded[fn])))
-
-import nltk
-import re
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('punkt_tab') # Added this line to download the missing resource
-
-from nltk.corpus import stopwords
-stopwords_id = set(stopwords.words('english'))
-
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-stemmer = StemmerFactory().create_stemmer()
-
-def preprocess(text):
-    # lowercase
-    text = text.lower()
-
-    # hapus angka & tanda baca
-    text = re.sub(r'[^a-zA-Z\s]', ' ', text)
-
-    # tokenisasi
-    tokens = nltk.word_tokenize(text)
-
-    # hapus stopword + kata 1 huruf
-    tokens = [t for t in tokens if t not in stopwords_id and len(t) > 1]
-
-    # gabung kembali
-    text = ' '.join(tokens)
-
-    # stemming
-    text = stemmer.stem(text)
-
-    return text
-
-df = pd.read_csv('ujaran_dataset.csv')
-
-# Ambil hanya 100 baris pertama
-df = df.head(50)
-
-# Preprocessing
-df['clean_text'] = df['tweet'].astype(str).apply(preprocess)
-
-df.head()
+'''
+jos
+'''
 ---
 ![16](16.PNG)
 ---
