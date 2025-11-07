@@ -38,7 +38,7 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 
 ## 🚀 Instalasi & Penggunaan
 ## ✅ Langkah 1 – Import Library
-,,,
+---
 # Install library jika belum ada
 !pip install Sastrawi wordcloud --quiet
 
@@ -53,7 +53,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, classification_report
-,,,
+---
+
 
 ---
 
