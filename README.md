@@ -1,4 +1,4 @@
-# Hate Speech Detection - Indonesian Language
+<img width="535" height="128" alt="image" src="https://github.com/user-attachments/assets/5c7a727b-58ba-4be2-9d8e-26346b141802" /># Hate Speech Detection - Indonesian Language
 
 Klasifikasi Ujaran Kebencian (Hate Speech) dalam Bahasa Indonesia menggunakan **Naive Bayes** dan **TF-IDF**. Proyek ini merupakan implementasi dari tugas UTS Kecerdasan Buatan untuk mendeteksi konten berbahaya di media sosial.
 
@@ -38,22 +38,6 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 
 ## 🚀 Instalasi & Penggunaan
 ## ✅ Langkah 1 – Import Library
----
-# Install library jika belum ada
-!pip install Sastrawi wordcloud --quiet
-
-import pandas as pd
-import numpy as np
-import re
-import nltk
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, classification_report
----
 
 
 ---
