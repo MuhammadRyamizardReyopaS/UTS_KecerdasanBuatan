@@ -55,7 +55,7 @@ git clone https://github.com/username/hate-speech-detection.git
 ## 📝 Laporan Lengkap
 
 Untuk dokumentasi lengkap proyek ini, silakan baca:
-- 📄 [Laporan UTS (PDF)](https://github.com/Hapiyansyah/uts-hate-speech-detection/raw/e62238638c311b3961b6dbad85937b202d3d8127/LAPORAN%20PROYEK.pdf)
+- 📄 Link
 
 ---
 
