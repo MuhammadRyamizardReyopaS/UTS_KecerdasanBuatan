@@ -1,4 +1,4 @@
-# Hate Speech Detection - Indonesian Language
+# Hate Speech Detection 
 
 Klasifikasi Ujaran Kebencian (Hate Speech) dalam Bahasa Indonesia menggunakan **Naive Bayes** dan **TF-IDF**. Proyek ini merupakan implementasi dari tugas UTS Kecerdasan Buatan untuk mendeteksi konten berbahaya di media sosial.
 
