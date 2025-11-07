@@ -38,7 +38,7 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 
 ## 🚀 Instalasi & Penggunaan
 ## ✅ Langkah 1 – Import Library
-![1](scspit/1.PNG)
+![1](1.PNG)
 
 ---
 
