@@ -40,9 +40,9 @@ Model yang dibangun mampu mengklasifikasikan teks dengan akurasi **~88%** menggu
 ## ✅ Langkah 1 – Import Library
 ![1](1.PNG)
 ## Load Dataset & batasi 50 kolom pertama
-'''
+"""
 jos
-'''
+"""
 ---
 ![16](16.PNG)
 ---
